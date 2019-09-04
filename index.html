@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="el-GR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Electron Music Player!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+
+</head>
+
+<body onload="basic()">
+    <script>
+    </script>
+    <!-- <script>
+        document.getElementById('dtl').innerHTML = readTree();
+    </script>-->
+    <h1>Electron Music Player!</h1>
+    <hr />
+    <br />
+    <section id="left">
+
+        <details id="dd">
+            <summary><b>Εκλογή κομματιού:</b></summary>
+            <hr id="inner_hr" />
+
+            <div id="dtl"></div>
+
+        </details>
+    </section>
+    <section id="central">
+
+
+        <audio preload="none" id="musplay" controls style="max-width:100%">
+                <source id= "mymusic" src="" type="audio/mpeg">
+                    Your browser does not support the audio element.
+        </audio>
+        <br />
+        <div id="now"></div>
+        <div>
+
+            <p id="instructions" onclick="iclick()">ℹ️Οδηγίες</p>
+
+
+
+            <p id="test"></p>
+
+
+        </div>
+
+    </section>
+    <br />
+    <hr />
+    <br />
+    <footer>
+        © <i>Made by Sil</i>
+    </footer>
+</body>
+
+</html>

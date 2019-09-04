@@ -1,0 +1,125 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+    background-color: rgb(218, 137, 32);
+    padding: 10px;
+    width: 1015px;
+}
+
+hr {
+    width: 1035px;
+}
+
+#inner_hr {
+    width: 100%;
+}
+
+summary {
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.track_title {
+    color: blue;
+    cursor: pointer;
+}
+
+.track_title2 {
+    color: blue;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.track {
+    color: cadetblue;
+    cursor: pointer;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+.track:hover {
+    color: coral;
+}
+
+.track:active {
+    color: crimson;
+}
+
+.not_exist {
+    color: gray;
+    font-style: normal;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+.closing {
+    color: gray;
+    font-style: italic;
+    padding: 4px 4px 4px 10px;
+    font-size: 10px;
+    line-height: 1.6;
+    margin: 0px;
+}
+
+#left {
+    float: left;
+    position: static;
+    height: 350px;
+    width: 350px;
+    padding: 4px;
+    background-color: beige;
+    overflow: auto;
+}
+
+#central {
+    position: static;
+    height: 350px;
+    width: 877px;
+    padding-left: 158px;
+    margin-right: 10px;
+    background-color: goldenrod;
+}
+
+#now {
+    visibility: hidden
+}
+
+#instructions {
+    padding-left: 218px;
+    cursor: pointer;
+}
+
+#instructions:hover {
+    color: red;
+}
+
+.ins {
+    line-height: 1.5;
+}
+
+audio {
+    text-align: center;
+    position: static;
+    display: block;
+    z-index: 1;
+    padding: 10px;
+    margin: auto;
+}
+
+footer {
+    position: static;
+    float: bottom;
+    text-align: center;
+}
