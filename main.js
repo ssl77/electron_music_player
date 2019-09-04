@@ -1,10 +1,9 @@
 /*jshint esversion: 6 */
 const electron = require('electron');
-const { app, BrowserWindow, ipcMain, remote } = require('electron');
+const { app, BrowserWindow} = require('electron');
 const fs = require('fs');
 const path = require('path');
-//const url = require('url');
-const myscript = require('./myscript');
+
 
 
 
