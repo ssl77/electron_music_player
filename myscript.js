@@ -5,8 +5,7 @@ const os = require('os');
 let user = os.homedir();
 
 
-//let mymusicpath = path.join(__dirname, 'mymusic');
-//let mymusicpath = `/Users/silouane/Desktop/mymusic`;
+
 let mymusicpath = path.join(user, `Desktop/mymusic`);
 
 function basic() {
@@ -96,7 +95,7 @@ function basic() {
 
 function openF(y) {
     //ανάγνωση μουσικών κομματιών
-    if (document.getElementById(y).getElementsByTagName('li')[0] == undefined) { //αυτο δεν σβήνει!
+    if (document.getElementById(y).getElementsByTagName('li')[0] == undefined) { 
         let ulelem = document.getElementById(y);
         let ul = ulelem.innerHTML;
         let ulnew = ul.replace('📁', '📂');
