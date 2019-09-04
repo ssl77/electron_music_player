@@ -33,8 +33,7 @@ function createWindow() {
         }
     });
 
-    // and load the index.html of the app.
-    // win.loadFile('index.html'); //sil αυτο υπήρχε πριν, το αλλαξα με το επομενο
+    
 
     let url = require('url').format({
         protocol: 'file',
@@ -43,12 +42,7 @@ function createWindow() {
 
     });
 
-    /* let url2 = require('url').format({
-        protocol: 'file',
-        slashes: true,
-        pathname: require('path').join(__dirname, 'mymusic')
-    });
-*/
+    
     win.loadURL(url);
 
 
@@ -90,11 +84,3 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
 
-/*
-ipcMain.on('onload', (event, filepath) => {
-    console.log(123);
-    event.sender.onclick({
-        file: filepath,
-    });
-});
-*/
